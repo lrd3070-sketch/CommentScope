@@ -1,0 +1,26 @@
+CommentScope
+An open-source Python tool for collecting and analyzing public YouTube comments
+{
+  "kind": "youtube#comment",
+  "etag": etag,
+  "id": string,
+  "snippet": {
+    "authorDisplayName": string,
+    "authorProfileImageUrl": string,
+    "authorChannelUrl": string,
+    "authorChannelId": {
+      "value": string
+    },
+    "channelId": string,
+    "textDisplay": string,
+    "textOriginal": string,
+    "parentId": string,
+    "canRate": boolean,
+    "viewerRating": string,
+    "likeCount": unsigned integer,
+    "moderationStatus": string,
+    "publishedAt": datetime,
+    "updatedAt": datetime,
+    "imageUrl": string
+  }
+}
